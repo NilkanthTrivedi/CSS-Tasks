@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+.h{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: lightgreen;
+    position: relative;
+}
+.e{
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    border: 20px solid red;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.5%;
+    left: 44.2%;
+   
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+
+    animation-name: firstanime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.l{margin: auto;
+    width: 250px;
+    height: 250px;
+    border: 15px solid purple;
+    border-radius: 50%;
+    position: absolute;
+    top: 5.78%;
+    left: 45.8%;
+   
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    animation-name: firstanime1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.o{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border: 15px solid yellowgreen;
+    border-radius: 50%;
+    position: absolute;
+    top: 9%;
+    left: 47.4%;
+   
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    animation-name: firstanime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.w{
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border: 15px solid blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 11.4%;
+    left: 48.55%;
+    
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    animation-name: firstanime1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+@keyframes firstanime{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+@keyframes firstanime1{
+    from{transform: rotate(-0deg);}
+    to{transform: rotate(-360deg);}
+}

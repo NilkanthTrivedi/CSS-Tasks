@@ -1,0 +1,10 @@
+.bg{
+	width: 100%;
+	height: 500px;
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57D6lssP6cbormzVf6zq8HBDZ8llFxIdIug&usqp=CAU"),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUFX8ESBArBW_w9WWKo_wKdLUcvBh5fPbpkg&usqp=CAU"),url("https://yt3.ggpht.com/fGvQjp1vAT1R4bAKTFLaSbdsfdYFDwAzVjeRVQeikH22bvHWsGULZdwIkpZXktcXZc5gFJuA3w=s900-c-k-c0x00ffffff-no-rj");
+	background-repeat: no-repeat,no-repeat,repeat;
+	background-size: 150px 150px ,150px 150px, 100% 100%;
+	background-position:  left top, right bottom,center;
+
+
+}

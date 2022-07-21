@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Before Animation</title>
+        <style>
+            div {
+                font-size: 22px;
+                font-weight: 600;
+                display: flex;
+                margin: 100px auto;
+                width: 200px;
+                height: 50px;
+                position: relative;
+                border-radius: 20px;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                z-index: 2;
+            }
+
+            div::after {
+                content: "";
+                position: absolute;
+                top: 0px;
+                width: 200px;
+                height: 50px;
+                background: linear-gradient(45deg, red, blue);
+                transform: translate(-100%, 0);
+                transition: 1s;
+                z-index: -1;
+            }
+            div:hover::after {
+                color: white;
+                transform: translate(0%, 0);
+            }
+        </style>
+    </head>
+    <body>
+        <div>Hover Me !</div>
+    </body>
+</html>
